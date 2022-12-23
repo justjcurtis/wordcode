@@ -16,11 +16,27 @@ html{
 }
 
 .infobox {
+    margin-top:10px;
     display: flex;
     flex-direction: row-reverse;
-    margin-right: 2.5%;
+    width:70%;
+    margin-left: 2%;
 }
 
 .quote {
-    width: 40%;
+    width: 100%;
+}
+
+@media screen and (min-width: 1000px) {
+    .quote {
+        width: 40%;
+    }
+
+    .infobox {
+        margin-top:10px;
+        display: flex;
+        flex-direction: row-reverse;
+        width:92.5%;
+        margin-left: 2%;
+    }
 }
