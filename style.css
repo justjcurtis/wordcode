@@ -1,0 +1,26 @@
+html{
+    background-color: black;
+}
+
+.section {
+    background-color: white;
+}
+
+.wordfield {
+    margin-top:30px;
+}
+
+.codebar {
+    width:70%;
+    margin-left: 2%;
+}
+
+.infobox {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-right: 2.5%;
+}
+
+.quote {
+    width: 40%;
+}

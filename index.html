@@ -1,0 +1,35 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>WordCode</title>
+</head>
+<body>
+    <section class="section is-medium">
+        <h1 class="title">WordCode</h1>
+        <h2 class="subtitle">
+            Enter a word below & see it's code generated in real time.
+        </h2>
+      </section>
+      <div class="container is-max-desktop">
+        <div class="wordfield field has-addons">
+            <p class="control codebar">
+              <input id="wordinput" class="input" type="text" placeholder="Enter a word">
+            </p>
+            <p class="control">
+              <a id='codeoutput' class="button is-static">
+                Code will appear here 👋🏼
+              </a>
+            </p>
+          </div>
+
+        <div class="content infobox">
+            <blockquote class="quote">(Only characters from a to z will be included in the calculation. All other characters entered will be ignored.)</blockquote>
+        </div>
+      </div>
+</body>
+<script src="./index.js"></script>
+</html>
